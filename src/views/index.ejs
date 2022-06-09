@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <h1>Subir datos y archivos</h1>
+    
+    <form action="/" method="POST" enctype="multipart/form-data">
+        <label for="">Nombre Usuario</label>
+        <input type="text" name="nombreUsuario" multiple><br>
+        <label for="">Numero Predio</label>
+        <input type="number" name="numeroPredio" multiple><br>
+        <label for="">Direccion Predio</label>
+        <input type="text" name="direccionPredio" multiple><br>
+        <label for="">Email</label>
+        <input type="email" name="email" multiple><br>
+        <label for="">Archivos</label>
+        <input type="file" name="archivos" multiple><br>
+        <label for="">Archivo PDF</label>
+        <input type="file" name="archivo"><br>
+        <button type="submit">
+            Subir
+        </button>
+    </form>
+</body>
+</html>
